@@ -258,6 +258,42 @@ footer a {
   text-align: left;
 }
 
+/* Daily Guitar News */
+
+.daily-guitar-news-card {
+  background-color: var(--accent);
+  color: var(--secondary);
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.daily-guitar-news-content {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.daily-guitar-news-text h3 {
+  color: var(--primary);
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.daily-guitar-news-text p {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 420px;
+  display: block;
+  margin: 0;
+  border-radius: 6px;
+}
+
 .sponsor-table td {
   padding: 1rem;
   border-bottom: 2px solid var(--secondary);
